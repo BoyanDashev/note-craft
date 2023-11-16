@@ -1,24 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Createnote from './Createnote';
-import BtncreateNote from './BtncreateNote';
-import BtneditNote from './BtneditNote';
-import DeleteNote from './DeleteNote';
 import './tailwind.css';
 import Navbar from './Navbar';
 import reportWebVitals from './reportWebVitals';
+
+import CreateNewNode from './CreateNewNote';
+
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    
     <Navbar />
-    <Createnote />
-    <BtncreateNote/>
-    <BtneditNote/>
-    <DeleteNote/>
+
     
+    <CreateNewNode />
   </React.StrictMode>
 );
 
