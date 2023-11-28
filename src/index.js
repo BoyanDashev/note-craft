@@ -3,8 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './tailwind.css';
 import Navbar from './Navbar';
 import reportWebVitals from './reportWebVitals';
-
-import CreateNewNode from './CreateNewNote';
+import ParentComponent from './components/ParentComponentTextArea';
 
 
 
@@ -13,9 +12,10 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Navbar />
+    
 
     
-    <CreateNewNode />
+    <ParentComponent />
   </React.StrictMode>
 );
 
